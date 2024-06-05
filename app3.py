@@ -144,4 +144,4 @@ def redirect_to_final_page():
         return jsonify({'status': 'error', 'message': 'No URL available. Please run the Selenium script first.'})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='192.168.31.80',port=8002')
